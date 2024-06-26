@@ -350,3 +350,39 @@ body{
         transform:translate(-36vmin,1.1vmin) rotateY(-80deg) rotateX(35deg);
     }
 }
+
+.f-wrapper--1 .flower__leaf:not(:first-child),
+.f-wrapper--1 .flower__leaf--1,
+.flower__fall-down--yellow {
+    /* Gelb zu Orange */
+    background-image: linear-gradient(to bottom, #ffeb3b, #f57f17, #1a233a 99%);
+}
+
+.f-wrapper--2 .flower__leaf:not(:first-child),
+.f-wrapper--2 .flower__leaf--1,
+.flower__fall-down--pink {
+    /* Pink zu Rot */
+    background-image: linear-gradient(to bottom, #f06292, #e53935, #1a233a 99%);
+}
+
+.f-wrapper--3 .flower__leaf:not(:first-child),
+.f-wrapper--3 .flower__leaf--1,
+.flower__fall-down--purple {
+    /* Lila zu Blau */
+    background-image: linear-gradient(to bottom, #7986cb, #3949ab, #1a233a 99%);
+}
+
+.f-wrapper--1 .f .flower__leaf--8 {
+    /* Anpassung des letzten Blütenblattes */
+    background-image: linear-gradient(to left bottom, #ffeb3b, #f57f17);
+}
+
+.f-wrapper--2 .f .flower__leaf--8 {
+    /* Anpassung des letzten Blütenblattes */
+    background-image: linear-gradient(to left bottom, #f06292, #e53935);
+}
+
+.f-wrapper--3 .f .flower__leaf--8 {
+    /* Anpassung des letzten Blütenblattes */
+    background-image: linear-gradient(to left bottom, #7986cb, #3949ab);
+}
