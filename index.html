@@ -6,7 +6,7 @@
     <title>flowers</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body">
 
 <div class="flower">
     <div class="f-wrapper">
@@ -53,6 +53,11 @@
     <div class="flower__glass"></div>
 </div>
 
+<script>
+    document.getElementById('body').addEventListener('click', function() {
+        this.classList.add('animate');
+    });
+</script>
 
 </body>
 </html>
